@@ -14,6 +14,19 @@ h1 {
   margin: 0;
 }
 
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+#playBar img {
+  height: 33px;
+  margin-left: 1rem;
+}
+
 img {
   height: 60px;
   border-radius: 5rem;

@@ -4,6 +4,8 @@ body {
   font-family: 'Nunito', sans-serif;
   height: 100%;
   cursor: default;
+  min-width: 650px;
+  min-height: 160px;
 }
 
 html {
@@ -18,5 +20,6 @@ html {
   flex: 1;
   justify-content: center;
   align-items: center;
-  background-image: radial-gradient(50% 150%, #C328F3 20%, #3FCA6C 100%);
+  /*background-image: radial-gradient(50% 150%, #A128F3 60%, #CA3F3F 100%);*/
+  background-image: radial-gradient(50% 150%, #28A0F3 50%, #3FCA6C 100%);
 }
